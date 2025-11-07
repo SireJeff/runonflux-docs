@@ -35,6 +35,26 @@ const config: Config = {
     locales: ['en'],
   },
 
+  // Kapa AI Widget Integration
+  scripts: [
+    {
+      src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
+      async: true,
+      'data-website-id': 'd6f44093-4ac0-4c62-9cc1-eaad8fef1199',
+      'data-project-name': 'Flux',
+      'data-user-analytics-fingerprint-enabled': 'true',
+      'data-search-mode-enabled': 'true',
+      'data-project-logo': 'https://raw.githubusercontent.com/RunOnFlux/media-logos/refs/heads/master/Flux_Asset_SVG/Flux%20Logo/Symbol/Round%20Symbol/SVG/Flux_symbol_blue-white.svg',
+      'data-modal-image': 'https://raw.githubusercontent.com/RunOnFlux/media-logos/refs/heads/master/Flux_Asset_SVG/Flux%20Logo/Symbol/Round%20Symbol/SVG/Flux_symbol_blue-white.svg',
+      'data-button-image-width': '28',
+      'data-button-image-height': '28',
+      'data-button-height': '4rem',
+      'data-button-width': '3.75rem',
+      'data-button-text-font-size': '0.875rem',
+      'data-modal-disclaimer': 'This is a custom LLM for answering questions about all Flux products. The answers are based on the contents of Whitepapers, Documentation, Support articles, API references, website and knowledgebases. Give it a try!',
+    },
+  ],
+
   presets: [
     [
       'classic',
