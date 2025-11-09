@@ -74,6 +74,25 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Redirect old GitBook URLs (with /flux/ prefix) to new Docusaurus URLs
+        createRedirects(existingPath: string) {
+          // For any existing path, also handle requests with /flux/ prefix
+          // This maps old URLs like /flux/fluxcloud/home to new URLs like /fluxcloud/home
+          if (!existingPath.startsWith('/flux/')) {
+            return [
+              `/flux${existingPath}`, // e.g., /fluxcloud/home -> /flux/fluxcloud/home
+            ];
+          }
+          return undefined; // Return undefined when we don't want to create redirects
+        },
+      },
+    ],
+  ],
+
   themes: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
