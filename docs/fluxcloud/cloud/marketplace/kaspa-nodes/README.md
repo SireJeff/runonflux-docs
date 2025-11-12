@@ -103,7 +103,7 @@ Applications → Management → Manage App → Logs
 At the top right, you’ll find a **FluxNode IP selector**, allowing you to choose which node instance you want to inspect or control.\
 Use the **reload button** to refresh the list of currently active FluxNodes running your app.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 144820.jpg" alt=""/>
+<img src="/.gitbook/assets/KaspaNode_Logs.jpg" alt=""/>
 
 **Why This Is Useful**
 
@@ -190,7 +190,7 @@ Applications → Management → Manage App → Global App Management → Update/
 
 **Learn More**
 
-For detailed management instructions, visit the official documentation:\
-[Flux Docs – Update & Renew](https://docs.runonflux.com/flux/fluxcloud/home/applications/management/manage-app/global-app-management/update-renew)
+For detailed management instructions, visit the official documentation:
+[Flux Docs – Subscription](https://docs.runonflux.com/fluxcloud/cloud/applications/management/manage-app/subscription)
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 145222.jpg" alt=""/>
+<img src="/.gitbook/assets/KaspaNode_Renewal.jpg" alt=""/>
