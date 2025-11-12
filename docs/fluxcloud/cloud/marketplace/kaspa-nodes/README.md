@@ -19,7 +19,7 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 
 2. **Find Kaspa Node**
 
-* Open the **Marketplace** menu tab.
+* Open the **Marketplace → Applications** menu tab.
 * Search for **Kaspa** and select the **KaspaNode** for Mainnet, or **KaspaTestnet** for Testnet.
   * Choose 16GB or 24GB depending on your budget, and usage of the node.
 
